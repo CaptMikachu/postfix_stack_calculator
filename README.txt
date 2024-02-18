@@ -4,17 +4,14 @@ g++ *.cpp -o rpc
 ---------------------EXAMPLES TO TRY IN LINUX TERMINAL---------------------
 
 ./rpc -p
-
 OPENS PROMPT WITH BASIC INSTRUCTIONS AND ASKS FOR POSTFIX CALCULATION
 
 
 ./rpc 2 2 +
-
 RUNS CALCULATION 2+2
 
 
 echo 2 2 + | ./rpc
-
 SAME AS ABOVE
 
 
